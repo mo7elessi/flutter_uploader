@@ -58,7 +58,7 @@ class MultipartFormDataUpload extends Upload {
   final List<FileItem>? files;
 
   /// additional data. Each entry will be sent as a form field.
-  final Map<String, String>? data;
+  dynamic data;
 }
 
 /// Also called a binary upload, this represents a upload without any form-encoding applies.
